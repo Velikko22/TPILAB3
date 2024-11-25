@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+
+.categorias h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 6vh;
+    font-family: "Besley";
+    font-weight: 500;
+    font-size: 4vh;
+    text-align: center;
+    color: #ffffff;
+    background-color: #d81b60;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.item-producto{
+    flex: 0 0 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(145, 16, 16, 0.2);
+}   
+
+.item-producto img{
+    display: block;
+    height: 60%;
+    width: 60%;
+    object-fit: contain;
+    margin: 0 auto;
+    
+}
+.producto_nombre{
+    padding: 0 0.5rem ;
+}
+
+.producto_precio{
+    margin: 1.5rem 0;
+    padding: 0 0.5rem ;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d81b60;
+}
+
+.producto_enlace{
+    padding: 1rem 0.5rem ;
+    border-radius: 1rem;
+    background-color: #d81b60;
+    color: white;
+    font-weight: 600;
+}
